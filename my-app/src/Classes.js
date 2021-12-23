@@ -26,7 +26,7 @@ return(
         </h1>
 
         <div>
-            <p>Place holder text</p>
+            <p>Place holder text for Classes page, I want to put a table of classes ive taken related to the field here</p>
         </div>
     </div>
 );

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 function Projects(){
+    // TODO Add github links
     return (
         <div>
             <h1 class="w-full text-3xl underline text-white font-bold bg-gradient-to-r from-sky-600 via-purple-600 to-pink-600">
@@ -29,6 +30,7 @@ function Projects(){
         <br></br>
         <div>
             <TextCard photo={test} text="Sample text for dice card" tag1="Dice 1" tag2="Dice 2" tag3="Dice 3"/>
+            
         </div>
         </div>
     );
