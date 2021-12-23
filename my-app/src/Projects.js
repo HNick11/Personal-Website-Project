@@ -1,11 +1,11 @@
 import './index.css';
 import TextCard from './components/TextCard';
 import test from './test.png';
+import sitescreenshot from './site-homepage.PNG';
 import { Link } from 'react-router-dom';
 
 
 function Projects(){
-    // TODO Add github links
     return (
         <div>
             <h1 class="w-full text-3xl underline text-white font-bold bg-gradient-to-r from-sky-600 via-purple-600 to-pink-600">
@@ -28,10 +28,13 @@ function Projects(){
                 </h2>    
         </h1>
         <br></br>
-        <div>
-            <TextCard photo={test} text="Sample text for dice card" tag1="Dice 1" tag2="Dice 2" tag3="Dice 3"/>
-            
+        <div class="flex flex-row">
+            <div class="px-2"><TextCard photo={test} title="Dice" link="https://github.com/HNick11" text="Sample text for dice card" tag1="Dice 1" tag2="Dice 2" tag3="Dice 3"/></div>
+            <div class="px-2"><TextCard photo={sitescreenshot} title="Portfolio Website" text="This is a website I created to showcase my webdev skills and show off my porfolio of other projects"
+            tag1="React" tag2="TailwindCSS" tag3="JSX" link="https://github.com/HNick11"/></div>
         </div>
+
+
         </div>
     );
 }
