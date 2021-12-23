@@ -28,9 +28,11 @@ function Projects(){
                 </h2>    
         </h1>
         <br></br>
+        <p>Here are some of my projects from various classes or side projects!</p>
+        <br></br>
         <div class="flex flex-row">
             <div class="px-2"><TextCard photo={test} title="Dice" link="https://github.com/HNick11" text="Sample text for dice card" tag1="Dice 1" tag2="Dice 2" tag3="Dice 3"/></div>
-            <div class="px-2"><TextCard photo={sitescreenshot} title="Portfolio Website" text="This is a website I created to showcase my webdev skills and show off my porfolio of other projects"
+            <div class="px-2"><TextCard photo={sitescreenshot} title="Portfolio Website" text="This is a website I created to showcase my webdev skills and show off my portfolio of other projects"
             tag1="React" tag2="TailwindCSS" tag3="JSX" link="https://github.com/HNick11"/></div>
         </div>
 

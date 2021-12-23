@@ -23,9 +23,9 @@ function About(){
                     </div>  
                 </h2>    
         </h1>
-
+        <br></br>
         <div>
-            <p>Place holder text</p>
+            <p>My name is Nicholas Heleta, and I am a third year Computer Science student at the University of Saskatchewan. I’m pursing my bachelor’s degree in Computer Science as well as a Minor in Mathematics. I fell in love with coding in high school, through our school’s robotics club as well as my computer science classes. Some of my other passions include video games, music and sports! </p>
         </div>
         </div>
     );
