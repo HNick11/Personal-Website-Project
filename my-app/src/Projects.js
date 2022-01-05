@@ -1,6 +1,8 @@
 import './index.css';
 import TextCard from './components/TextCard';
-import test from './test.png';
+import timer from './fb-stopwatch2.png';
+import xv6 from './xv6.PNG';
+import bot from './discord.png';
 import sitescreenshot from './site-homepage.PNG';
 import { Link } from 'react-router-dom';
 
@@ -31,9 +33,14 @@ function Projects(){
         <p>Here are some of my projects from various classes or side projects!</p>
         <br></br>
         <div class="flex flex-row">
-            <div class="px-2"><TextCard photo={test} title="Dice" link="https://github.com/HNick11" text="Sample text for dice card" tag1="Dice 1" tag2="Dice 2" tag3="Dice 3"/></div>
             <div class="px-2"><TextCard photo={sitescreenshot} title="Portfolio Website" text="This is a website I created to showcase my webdev skills and show off my portfolio of other projects"
-            tag1="React" tag2="TailwindCSS" tag3="JSX" link="https://github.com/HNick11"/></div>
+            tag1="React" tag2="TailwindCSS" tag3="JSX" link="https://github.com/HNick11/Personal-Website-Project"/></div>
+            <div class="px-2"><TextCard photo={xv6} title="XV6 Scheduler" text="This is a class assignment for creating a new process scheduler in xv6 operating system"
+            tag1="XV6" tag2="C" tag3="Multithreaded" link="https://github.com/HNick11/CMPT332Scheduler"/></div>
+            <div class="px-2"><TextCard photo={timer} title="TimerTask" text="This is a class assignment for creating a timer system from a given task description"
+            tag1="Java" tag2="JavaFX" tag3="Design" link="https://github.com/HNick11/CMPT-381-Assignment-2"/></div>
+            <div class="px-2"><TextCard photo={bot} title="Question Discord Bot" text="This is a side project, my friends and i are working on to deliever a question of the week over discord"
+            tag1="Node" tag2="Docker" tag3="Discord.js" link="https://github.com/Holden-bot/discord-bot"/></div>
         </div>
 
 
